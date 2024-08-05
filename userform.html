@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Styling with CSS</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="wrapper">
+    <h1>User Form</h1>
+    <form action="" method="get">
+        <h3>User Name : <input type="text" id="name" name="name" placeholder="Name" required\><br></h3>
+        <h3>Age : <input type="number" id="age" name="age" placeholder="Age" required\><br></h3>
+        <h3>Email : <input type="email" id="email" name="mail" placeholder="Email" required\><br></h3>
+        <h3>Language Known : <input type="checkbox" id="indian" name="nation" value="indian">
+            <label for="indian">Java</label>
+            <input type="checkbox" id="nonindian" name="nation" value="nonindian">
+            <label for="nonindian">Python</label>
+            <input type="checkbox" id="nonindian" name="nation" value="nonindian">
+            <label for="nonindian">C++</label></h3>
+        
+
+        <h3>Gender : 
+            <label for="option1">Male</label>
+            <input type="radio" id="option1" name="radioGroup" value="JAVA" />
+            <label for="option2">Female</label>
+            <input type="radio" id="option2" name="radioGroup" value="PYTHON" />
+        </h3>
+
+        <h3>Location : <select>
+            <option value="option1">Bangalore</option>
+            <option value="option2">Coimbatore</option>
+            <option value="option2">Chennai</option>
+            <option value="option2">Pune</option>
+            <option value="option2">Mumbai</option>
+            <option value="option2">Hyderabad</option>
+            <option value="option2">Delhi</option>
+        </select></h3>
+
+        <h3>Write about yourself :<textarea></textarea></h3>
+                
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
